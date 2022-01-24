@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "build-tailwind:css": "tailwindcss -i src/styles/style.css -o public/style.css -w",
+    "build-sass:css": "sass ./src/styles/sass/main.scss ./src/styles/style.css -w",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "sass": "^1.49.0",
     "vue": "^3.0.0"
   },
   "devDependencies": {
@@ -16,9 +19,16 @@
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
+    "autoprefixer": "^10.4.2",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0"
+    "eslint-plugin-vue": "^7.0.0",
+    "postcss": "^8.4.5",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^7.2.3",
+    "precss": "^4.0.0",
+    "tailwindcss": "^3.0.15"
   },
   "eslintConfig": {
     "root": true,
