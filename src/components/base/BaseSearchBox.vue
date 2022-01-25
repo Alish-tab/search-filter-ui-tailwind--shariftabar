@@ -1,8 +1,8 @@
 <template>
-    <div class="flex items-center w-2/5 h-12 justify-self-start ml-auto mr-20">
+    <div class="flex items-center justify-self-start md:w-2/5 md:h-12 md:ml-auto md:mr-20">
 
         <!--------------------- search Input ----------------------------->
-        <input type="text" placeholder="جستجو در سوپرز...." class="w-full border rounded-3xl border-secondary shadow outline-none 
+        <input type="text" placeholder="جستجو در سوپرز...." class="hidden md:block w-full border rounded-3xl border-secondary shadow outline-none 
         placeholder:absolute placeholder:right-14 text-right p-3 pr-14 "/>
 
         <!--------------------- magnifier icon ---------------------------->
