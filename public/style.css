@@ -468,4 +468,113 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.-ml-11 {
+  margin-left: -2.75rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.pr-14 {
+  padding-right: 3.5rem;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+body {
+  font-family: "Vazir", sans-serif;
+  font-weight: normal;
+}
+
+input {
+  direction: rtl;
+}
+
+.placeholder\:absolute::-moz-placeholder {
+  position: absolute;
+}
+
+.placeholder\:absolute:-ms-input-placeholder {
+  position: absolute;
+}
+
+.placeholder\:absolute::placeholder {
+  position: absolute;
+}
+
+.placeholder\:right-14::-moz-placeholder {
+  right: 3.5rem;
+}
+
+.placeholder\:right-14:-ms-input-placeholder {
+  right: 3.5rem;
+}
+
+.placeholder\:right-14::placeholder {
+  right: 3.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */

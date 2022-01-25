@@ -1,5 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body {
+  font-family: "Vazir", sans-serif;
+  font-weight: normal;
+}
+
+input {
+  direction: rtl;
+}
 
 /*# sourceMappingURL=style.css.map */
