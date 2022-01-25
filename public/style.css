@@ -472,6 +472,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: -2.75rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}
+
+.mr-12 {
+  margin-right: 3rem;
+}
+
+.mr-16 {
+  margin-right: 4rem;
+}
+
+.mr-20 {
+  margin-right: 5rem;
+}
+
+.block {
+  display: block;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -488,6 +512,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 5rem;
 }
 
+.h-7 {
+  height: 1.75rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
 .w-2\/5 {
   width: 40%;
 }
@@ -496,8 +528,32 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
+.w-7 {
+  width: 1.75rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-28 {
+  width: 7rem;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-self-start {
+  justify-self: start;
 }
 
 .rounded-3xl {
@@ -527,6 +583,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pr-14 {
   padding-right: 3.5rem;
+}
+
+.pr-8 {
+  padding-right: 2rem;
+}
+
+.pr-20 {
+  padding-right: 5rem;
+}
+
+.pl-8 {
+  padding-left: 2rem;
+}
+
+.pl-12 {
+  padding-left: 3rem;
+}
+
+.pr-12 {
+  padding-right: 3rem;
 }
 
 .text-right {
@@ -575,6 +651,10 @@ input {
 
 .placeholder\:right-14::placeholder {
   right: 3.5rem;
+}
+
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
