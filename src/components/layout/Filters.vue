@@ -6,6 +6,8 @@
         <!----------------- grouping filter --------------->
         <grouping-filter></grouping-filter>
 
+        <!----------------- Sorted by filter --------------->
+        <sorted-by></sorted-by>
     </div>
 </template>
 
@@ -16,10 +18,14 @@
 /*********************** grouping filter components *************************/  
     import GroupingFilter from '../base/GrpoupingFilter.vue'
 
+/*********************** sortedBy filter components *************************/  
+    import SortedBy from '../base/SortedByFilter.vue'
+
     export default{
         components:{
             AvailableFilters,
-            GroupingFilter
+            GroupingFilter,
+            SortedBy
         }
     }
 </script>

@@ -10,4 +10,29 @@ input {
   direction: rtl;
 }
 
+input[type=radio] {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  outline: none;
+  box-shadow: 0 0 0 1.5px #9999A3;
+}
+
+input[type=radio]:checked:after {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  outline: 2px solid #ffa500;
+  top: -2px;
+  left: 0px;
+  position: relative;
+  background-color: #ffa500;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+  box-shadow: none;
+}
+
 /*# sourceMappingURL=style.css.map */
