@@ -1,5 +1,5 @@
 <template>
-    <div class="absolute right-12 flex flex-col gap-4">
+    <div class="absolute right-12 md:flex flex-col gap-4">
         <!----------------- available filters--------------->
         <available-filters></available-filters>
 
@@ -12,6 +12,8 @@
         <!----------------- Shops filter --------------->
         <shop-filter></shop-filter>
 
+        <!----------------- Brand filter --------------->
+        <brand-filter></brand-filter>
     </div>
 </template>
 
@@ -28,12 +30,16 @@
 /*********************** Shops filter components *************************/  
     import ShopFilter from '../base/ShopFilter.vue'
 
+/*********************** Brand filter components *************************/  
+    import BrandFilter from '../base/BrandFilter.vue'
+
     export default{
         components:{
             AvailableFilters,
             GroupingFilter,
             SortedBy,
-            ShopFilter
+            ShopFilter,
+            BrandFilter
         }
     }
 </script>
