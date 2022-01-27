@@ -10,12 +10,12 @@
         </div>
 
     <!----------------- radio options Div ---------------->
-        <div class="flex flex-col p-2 gap-1 absolute right-4">
+        <form class="flex flex-col p-2 gap-1 absolute right-4">
             <div v-for="option in options" :key="option.title" class=" flex items-center justify-end">
                 <label :for="option.title" class="text-base mr-2">{{option.title}}</label>
                 <input type="radio" :id="option.title" name="sorted-by" :value="option.title" :checked="option.isActive">
             </div>
-        </div>
+        </form>
     </div>
 </template>
 

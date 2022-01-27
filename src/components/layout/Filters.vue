@@ -8,24 +8,32 @@
 
         <!----------------- Sorted by filter --------------->
         <sorted-by></sorted-by>
+
+        <!----------------- Shops filter --------------->
+        <shop-filter></shop-filter>
+
     </div>
 </template>
 
 <script>
-/*********************** available filters components *************************/  
+/*********************** available filters component *************************/  
     import AvailableFilters from '../base/AvailableFilters.vue'
 
-/*********************** grouping filter components *************************/  
+/*********************** grouping filter component *************************/  
     import GroupingFilter from '../base/GrpoupingFilter.vue'
 
-/*********************** sortedBy filter components *************************/  
+/*********************** sortedBy filter component *************************/  
     import SortedBy from '../base/SortedByFilter.vue'
+
+/*********************** Shops filter components *************************/  
+    import ShopFilter from '../base/ShopFilter.vue'
 
     export default{
         components:{
             AvailableFilters,
             GroupingFilter,
-            SortedBy
+            SortedBy,
+            ShopFilter
         }
     }
 </script>
