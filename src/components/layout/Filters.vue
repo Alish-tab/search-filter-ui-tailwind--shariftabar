@@ -1,5 +1,5 @@
 <template>
-    <div class="absolute right-12 md:flex flex-col gap-4">
+    <div class="hidden  absolute right-12 md:flex flex-col gap-4">
         <!----------------- available filters--------------->
         <available-filters></available-filters>
 
