@@ -1,5 +1,5 @@
 <template>
-    <section class="grid md:grid-cols-4 gap-y-11 md:w-9/12 ml-12 justify-between">
+    <section class="grid grid-cols-2 gap-x-5  md:grid-cols-3  lg:grid-cols-4  md:gap-x-3 lg:gap-x-20 gap-y-11 ">
         <product-card
         v-for="product in products"
         :key="product.title"

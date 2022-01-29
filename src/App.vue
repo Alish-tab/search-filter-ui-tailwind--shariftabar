@@ -1,8 +1,9 @@
 <template>
- <div>
-     <my-header></my-header>
-     <filters></filters>
-     <products></products>
+ <div class="grid grid-cols-10 justify-items-center md:gap-x-16">
+     <my-header class="col-span-full"></my-header> 
+    <products class="col-span-full md:col-start-1 md:col-end-9"></products>
+    <filters class="md:col-start-9"></filters>
+     
  </div>
 </template>
 

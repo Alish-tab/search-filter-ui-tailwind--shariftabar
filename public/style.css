@@ -482,16 +482,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 1rem;
 }
 
-.right-12{
-  right: 3rem;
-}
-
 .order-2{
   order: 2;
 }
 
 .order-1{
   order: 1;
+}
+
+.col-span-full{
+  grid-column: 1 / -1;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
+.mb-1{
+  margin-bottom: 0.25rem;
+}
+
+.mr-1{
+  margin-right: 0.25rem;
 }
 
 .-ml-11{
@@ -516,26 +528,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-10{
   margin-bottom: 2.5rem;
-}
-
-.ml-12{
-  margin-left: 3rem;
-}
-
-.mr-1{
-  margin-right: 0.25rem;
-}
-
-.mb-4{
-  margin-bottom: 1rem;
-}
-
-.mb-2{
-  margin-bottom: 0.5rem;
-}
-
-.mb-1{
-  margin-bottom: 0.25rem;
 }
 
 .inline-block{
@@ -570,6 +562,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
+.h-4{
+  height: 1rem;
+}
+
 .h-12{
   height: 3rem;
 }
@@ -590,8 +586,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1.75rem;
 }
 
-.h-4{
-  height: 1rem;
+.h-48{
+  height: 12rem;
 }
 
 .w-60{
@@ -606,6 +602,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
+.w-7{
+  width: 1.75rem;
+}
+
 .w-6{
   width: 1.5rem;
 }
@@ -614,8 +614,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 6rem;
 }
 
-.w-7{
-  width: 1.75rem;
+.w-36{
+  width: 9rem;
 }
 
 .rotate-180{
@@ -623,8 +623,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.grid-cols-4{
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+.grid-cols-10{
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-none{
+  grid-template-columns: none;
 }
 
 .flex-col{
@@ -647,6 +655,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-between;
 }
 
+.justify-items-center{
+  justify-items: center;
+}
+
 .gap-4{
   gap: 1rem;
 }
@@ -667,12 +679,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0px;
 }
 
-.gap-y-4{
-  row-gap: 1rem;
-}
-
-.gap-y-8{
-  row-gap: 2rem;
+.gap-x-5{
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
 }
 
 .gap-y-11{
@@ -695,12 +704,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 0.5rem;
 }
 
-.rounded-3xl{
-  border-radius: 1.5rem;
-}
-
 .rounded-xl{
   border-radius: 0.75rem;
+}
+
+.rounded-3xl{
+  border-radius: 1.5rem;
 }
 
 .border{
@@ -740,6 +749,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 1rem;
 }
 
+.p-0\.5{
+  padding: 0.125rem;
+}
+
+.p-0{
+  padding: 0px;
+}
+
 .p-3{
   padding: 0.75rem;
 }
@@ -750,14 +767,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-2{
   padding: 0.5rem;
-}
-
-.p-0\.5{
-  padding: 0.125rem;
-}
-
-.p-0{
-  padding: 0px;
 }
 
 .pt-1{
@@ -805,28 +814,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.5rem;
 }
 
-.text-sm{
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
 }
 
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-bold{
   font-weight: 700;
-}
-
-.text-primary{
-  --tw-text-opacity: 1;
-  color: rgb(249 115 22 / var(--tw-text-opacity));
-}
-
-.text-white{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-blue-500{
@@ -834,24 +833,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
-.text-blue-400{
+.text-white{
   --tw-text-opacity: 1;
-  color: rgb(96 165 250 / var(--tw-text-opacity));
-}
-
-.text-secondary-dark{
-  --tw-text-opacity: 1;
-  color: rgb(228 228 231 / var(--tw-text-opacity));
-}
-
-.text-gray-500{
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-gray-400{
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.text-primary{
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 
 .line-through{
@@ -982,6 +976,18 @@ input[type=checkbox]:checked:after {
     order: 0;
   }
 
+  .md\:col-start-1{
+    grid-column-start: 1;
+  }
+
+  .md\:col-start-9{
+    grid-column-start: 9;
+  }
+
+  .md\:col-end-9{
+    grid-column-end: 9;
+  }
+
   .md\:ml-auto{
     margin-left: auto;
   }
@@ -1014,6 +1020,10 @@ input[type=checkbox]:checked:after {
     height: 2rem;
   }
 
+  .md\:h-56{
+    height: 14rem;
+  }
+
   .md\:w-2\/5{
     width: 40%;
   }
@@ -1026,16 +1036,26 @@ input[type=checkbox]:checked:after {
     width: 8rem;
   }
 
-  .md\:w-9\/12{
-    width: 75%;
+  .md\:w-40{
+    width: 10rem;
   }
 
-  .md\:grid-cols-4{
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+  .md\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:justify-around{
     justify-content: space-around;
+  }
+
+  .md\:gap-x-16{
+    -moz-column-gap: 4rem;
+         column-gap: 4rem;
+  }
+
+  .md\:gap-x-3{
+    -moz-column-gap: 0.75rem;
+         column-gap: 0.75rem;
   }
 
   .md\:pl-12{
@@ -1044,6 +1064,22 @@ input[type=checkbox]:checked:after {
 
   .md\:pr-12{
     padding-right: 3rem;
+  }
+
+  .md\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:gap-x-20{
+    -moz-column-gap: 5rem;
+         column-gap: 5rem;
   }
 }
 
