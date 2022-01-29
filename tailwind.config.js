@@ -11,8 +11,8 @@ module.exports = {
         'secondary' :{
           'dark': '#E4E4E7',
           'light': '#FAFAFA'
-        } 
-  
+        },
+        'OffRed': '#EF4444'
       },
     },
     
