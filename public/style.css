@@ -546,10 +546,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-.h-24{
-  height: 6rem;
-}
-
 .h-56{
   height: 14rem;
 }
@@ -564,6 +560,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-4{
   height: 1rem;
+}
+
+.h-24{
+  height: 6rem;
 }
 
 .h-12{
@@ -586,16 +586,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1.75rem;
 }
 
-.h-48{
-  height: 12rem;
-}
-
-.w-60{
-  width: 15rem;
-}
-
-.w-40{
-  width: 10rem;
+.w-36{
+  width: 9rem;
 }
 
 .w-full{
@@ -606,16 +598,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1.75rem;
 }
 
+.w-60{
+  width: 15rem;
+}
+
 .w-6{
   width: 1.5rem;
 }
 
 .w-24{
   width: 6rem;
-}
-
-.w-36{
-  width: 9rem;
 }
 
 .rotate-180{
@@ -629,10 +621,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-cols-none{
-  grid-template-columns: none;
 }
 
 .flex-col{
@@ -692,20 +680,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-self: start;
 }
 
-.rounded-md{
-  border-radius: 0.375rem;
-}
-
-.rounded-2xl{
-  border-radius: 1rem;
-}
-
 .rounded-lg{
   border-radius: 0.5rem;
 }
 
 .rounded-xl{
   border-radius: 0.75rem;
+}
+
+.rounded-md{
+  border-radius: 0.375rem;
+}
+
+.rounded-2xl{
+  border-radius: 1rem;
 }
 
 .rounded-3xl{
@@ -725,11 +713,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(228 228 231 / var(--tw-border-opacity));
 }
 
-.bg-secondary-light{
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 250 250 / var(--tw-bg-opacity));
-}
-
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -740,9 +723,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(228 228 231 / var(--tw-bg-opacity));
 }
 
-.bg-OffRed{
+.bg-secondary-light{
   --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  background-color: rgb(250 250 250 / var(--tw-bg-opacity));
 }
 
 .p-4{
@@ -809,9 +792,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: right;
 }
 
-.text-base{
-  font-size: 1rem;
-  line-height: 1.5rem;
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .text-xs{
@@ -819,9 +802,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1rem;
 }
 
-.text-sm{
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-bold{
@@ -1020,8 +1003,8 @@ input[type=checkbox]:checked:after {
     height: 2rem;
   }
 
-  .md\:h-56{
-    height: 14rem;
+  .md\:w-40{
+    width: 10rem;
   }
 
   .md\:w-2\/5{
@@ -1034,10 +1017,6 @@ input[type=checkbox]:checked:after {
 
   .md\:w-32{
     width: 8rem;
-  }
-
-  .md\:w-40{
-    width: 10rem;
   }
 
   .md\:grid-cols-3{
